@@ -24,7 +24,7 @@ class BonusFormulaMachine {
     }
 
 
-    public function calculate()
+    public function isMatched()
     {
         $rule = null;
         $ruleSchemas = json_decode($this->bonusFormula->if_clause, true);
